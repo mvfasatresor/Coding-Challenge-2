@@ -7,6 +7,10 @@
     font-family: "Open Sans", sans-serif;
 }
 /* navbar */
+body{
+    display: flex;
+    justify-content: space-between;
+}
 nav{
     display: flex;
     align-items: center;
@@ -18,10 +22,8 @@ nav a{
     color: white;
 }
 .profile{
-    display: flex;
-    align-items: left;
-    margin-right:20px;
-    background-color: red;
+   margin-right: 30px;
+   
 }
 
 
@@ -50,5 +52,16 @@ nav a{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+    
 }
 
