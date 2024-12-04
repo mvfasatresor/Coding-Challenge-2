@@ -7,9 +7,11 @@
     font-family: "Open Sans", sans-serif;
 }
 /* navbar */
-body{
+main{
     display: flex;
     justify-content: space-between;
+    background-color: grey;
+    
 }
 nav{
     display: flex;
@@ -53,15 +55,34 @@ nav a{
     justify-content: center;
     align-items: center;
 }
-section{
-    display: flex;
-    justify-content: space-between;
+
+img{
+    width: 100px;
+    height: 100px;
 }
-.one{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: red;
-    
+section{
+margin: 2%;
 }
 
+.my-profile{
+    
+height: 314.648px;
+width: 316.511px;
+padding: 2px;
+background-color: white;
+border-radius: 7px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+.my-profile img{
+    width: 105.995pxpx;
+    height: 105.995px;
+    border-radius: 100px;
+}
+.my-profile li{
+    font-size: 15px;
+    display: flex;
+    justify-content: left;
+}
