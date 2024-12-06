@@ -33,9 +33,6 @@ nav a{
 }
 
 
-.profile{
-   
-}
 
 
 .profile img{
@@ -72,7 +69,7 @@ img{
 
 
 section{
-margin: 1%;
+margin: 2% 1%;
 }
 
 
@@ -81,7 +78,7 @@ margin: 1%;
 .my-profile{
     
 height: 300px;
-width: 316.511px;
+width: 350px;
 padding: 2px 0;
 background-color: white;
 display: flex;
@@ -90,13 +87,17 @@ align-items: center;
 font-size: 20px;
 
 }
+.my-profile span{
+   padding: 8px 0 15px 0;
+}
 .my-profile img{
-    width: 105.995pxpx;
+    width: 105.995px;
     height: 105.995px;
     border-radius: 100px;
 }
 .my-profile p{
-    padding: 7px;
+    padding: 0;
+    
 }
 
 
@@ -105,7 +106,7 @@ font-size: 20px;
 
  .about{
 height: 130px;
-width: 316.511px;
+width: 350px;
 padding: 2px;
 background-color:#6a7880;
 font-size: 18px;
@@ -126,7 +127,7 @@ font-size: 18px;
 
  .tags{
     height: 135px;
-    width: 316.511px;
+    width: 350px;
     padding: 2px;
     background-color:  white;
     padding: 2px ;
@@ -213,7 +214,7 @@ font-size: 18px;
     
     background-color: #DFE5E8;
     height: 114.648px;
-    width: 316.511px;
+    width: 350px;
     
  }
  .nb span{
@@ -233,5 +234,66 @@ font-size: 18px;
 
 
 
+ .status{
+   background-color: white;
+   display: flex;
+   flex-direction: column;
+   padding: 8px 16px 8px 16px;
+   gap: 15px;
+   height: 173px;
+   width: 706.566px;
+ }
+ .status span{
+   padding: 16px 0 0 0;
+   font-size: 18px;
+   color: #888484;
+   
+ }
+ .status input{
+   padding: 12px 0;
+   font-size: 18px;
+   border:  1px solid #a4a4a4;
+   
+ }
+ .status input::placeholder{
+   color: #1d2326;
+   padding: 15px 18px;
+ }
 
+ .status button{
+   height: 40.0992px;
+   width: 83.1731px;
+   padding: 8px 0;
+   font-size: 18px;
+   background-color: #607d8b;
+   border: none;
+   color: white;
+ }
  
+ .john-doe{
+   height: 510.246px;
+   width: 706.581px;
+   padding: 8px 16px 8px 16px;
+   background-color: white;
+ }
+ .john{
+   display: flex;
+   padding: 20px 0 25px 0;
+   font-size: 18px;
+   color: #888484;
+   border-bottom: #d1cece 1px solid;
+ }
+ .john img{
+   border-radius: 100px;
+   height: 59.8708px;
+   width: 59.991px;
+ }
+ .john span{
+   padding-left: 405px;
+ }
+ .john h3{
+   padding: 20px 0 0 13px;
+   font-size: 25px;
+   color: #1d2326;
+   font-weight: 100;
+ }
