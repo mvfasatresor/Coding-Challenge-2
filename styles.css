@@ -41,11 +41,16 @@ nav a{
   width: 23px;
   height: 23px;
   border-radius: 20px;
-  margin-left: 1020px;
-              
 }
+.profile{
+  margin-left: 1000px;
+}
+.profile:hover{
+  background-color:  white;
+}
+
 .logo{
-  font-size: 20px;
+  font-size: 18px;
   background-color:#344c59;
   height: 53.8px;
   width: 116.6px;
@@ -53,6 +58,15 @@ nav a{
   justify-content: center;
   align-items: center;
 }
+.logo i{
+  padding: 0 15px;
+  font-size: 13.5px;
+}
+.logo:hover{
+    background-color:  #CCCCCC;
+}
+
+
 .elements{
   font-size: 20px;
   background-color:#4D636F;
@@ -61,7 +75,16 @@ nav a{
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 10px;
+  padding: 0 0 0 130px;
+}
+.elements i{
+  padding: 0 25px;
+  font-size: 18px;
+}
+.elements i:hover{
+  background-color:  white;
+  color: black;
+  padding: 18px 25.5px;
 }
 
 
@@ -113,7 +136,11 @@ padding: 10px 20px 0 20px;
   padding-top: 20px;
   border-top: #ece8e8 1px solid;
 }
-
+.p i{
+  padding: 0 15px 0 0 ;
+  font-size: 13px;
+  color:#7d97a4;
+}
 
 
 
@@ -132,6 +159,11 @@ box-shadow: 0 0 10px #bcc0c2;
   color: white;
   
 }
+.about a i{
+  padding: 0 15px 0 0 ;
+  font-size: 15px;
+}
+
 .about a:hover{
 color: black;
 background-color:  #CCCCCC;
@@ -296,7 +328,10 @@ background-color:  #CCCCCC;
 color: black;
 background-color:  #CCCCCC;
 }
-
+button i{
+  padding: 0 5px 0 0 ;
+  font-size: 18px;
+}
 
 
 
